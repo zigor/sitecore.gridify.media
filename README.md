@@ -8,5 +8,8 @@ Install [Sitecore.AssemblyBinding-1.0.zip](https://github.com/zigor/Sitecore-Ass
 # Post Configuration Steps:
 
 Add a new connectionString to the [WEBROOT]\App_Config\connectionStrings.config file specifying the blobs database , e.g.
+```
 
   &lt;add name="media" connectionString="mongodb://localhost/blobs" /&gt;
+  
+```

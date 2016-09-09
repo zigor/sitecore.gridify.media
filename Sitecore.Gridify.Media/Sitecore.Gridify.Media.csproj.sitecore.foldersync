@@ -1,0 +1,8 @@
+﻿<Project>
+  <FolderSync SynchronizeProjectOutputFolderOnBuild="True">
+    <Folder SourceFolder="C:\inetpub\wwwroot\sc82\Sitecore.Gridify.Media\Sitecore.Gridify.Media\bin" DestinationFolder="bin\" Mode="Copy" Pattern="MongoDB.Driver.GridFS.dll, Sitecore.Gridify.Media.dll " />
+    <Folder SourceFolder="C:\inetpub\wwwroot\sc82\Sitecore.Gridify.Media\Sitecore.Gridify.Media\bin" DestinationFolder="bin\MongoDB.2.2.4" Mode="Copy" Pattern="MongoDB.Bson.dll,MongoDB.Driver.dll,MongoDB.Driver.Core.dll" />
+    <Folder SourceFolder="C:\inetpub\wwwroot\sc82\Sitecore.Gridify.Media\Sitecore.Gridify.Media\App_Config\Include" DestinationFolder="App_Config\Include\" Mode="Copy" Pattern="Sitecore.Gridify.Media.config" />
+    <Folder SourceFolder="C:\inetpub\wwwroot\sc82\Sitecore.Gridify.Media\Sitecore.Gridify.Media\App_Config\Include\AssemblyBinding" DestinationFolder="App_Config\Include\AssemblyBinding" Mode="Copy" Pattern="*.config" />
+  </FolderSync>
+</Project>
